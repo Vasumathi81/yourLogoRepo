@@ -34,7 +34,7 @@ public class checkEmailRegistration extends BaseTest{
 		driver=null;
 	}
 	
-	@Test
+	@Test(priority = 1)
 	public void TC_emailCheck() throws IOException, InterruptedException
 	{
 		HomePage hp = new HomePage(driver);
@@ -42,7 +42,15 @@ public class checkEmailRegistration extends BaseTest{
 		ArrayList<String> emailIDList = gm.getValuesFromExcel("Login", "Email ID");
 		log.info("Email id is retrieved from the excel");
 		String emailID = emailIDList.get(0);
-		hp.siginEmailCheck(emailID);
+		String retValue = hp.siginEmailCheck(emailID);
+		if (retValue=="errorMsg")
+		{
+			log.info("The error message is displayed as needed");
+		}
+		else
+		{
+			Assert.fail("No error message is displayed");
+		}
 	}
 
 

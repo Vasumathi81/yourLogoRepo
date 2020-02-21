@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25520" started-at="2020-02-21T01:28:23Z" finished-at="2020-02-21T01:28:49Z">
+  <suite name="Suite" duration-ms="38611" started-at="2020-02-21T17:54:23Z" finished-at="2020-02-21T17:55:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25520" started-at="2020-02-21T01:28:23Z" finished-at="2020-02-21T01:28:49Z">
+    <test name="Test1" duration-ms="22629" started-at="2020-02-21T17:54:23Z" finished-at="2020-02-21T17:54:45Z">
       <class name="com.yourLogo.testCases.checkEmailRegistration">
-        <test-method status="PASS" signature="TC_ApplicationLaunch()[pri:0, instance:com.yourLogo.testCases.checkEmailRegistration@1a677343]" name="TC_ApplicationLaunch" is-config="true" duration-ms="12244" started-at="2020-02-21T01:28:23Z" finished-at="2020-02-21T01:28:36Z">
+        <test-method status="PASS" signature="TC_ApplicationLaunch()[pri:0, instance:com.yourLogo.testCases.checkEmailRegistration@6ed3ccb2]" name="TC_ApplicationLaunch" is-config="true" duration-ms="12014" started-at="2020-02-21T17:54:23Z" finished-at="2020-02-21T17:54:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_ApplicationLaunch -->
-        <test-method status="FAIL" signature="TC_emailCheck()[pri:0, instance:com.yourLogo.testCases.checkEmailRegistration@1a677343]" name="TC_emailCheck" duration-ms="13131" started-at="2020-02-21T01:28:36Z" finished-at="2020-02-21T01:28:49Z">
+        <test-method status="FAIL" signature="TC_emailCheck()[pri:1, instance:com.yourLogo.testCases.checkEmailRegistration@6ed3ccb2]" name="TC_emailCheck" duration-ms="10460" started-at="2020-02-21T17:54:35Z" finished-at="2020-02-21T17:54:45Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[User account creation page is loaded instead of the error message.]]>
+              <![CDATA[No error message is displayed]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: User account creation page is loaded instead of the error message.
+              <![CDATA[java.lang.AssertionError: No error message is displayed
 at org.testng.Assert.fail(Assert.java:96)
-at pageObjects.HomePage.siginEmailCheck(HomePage.java:48)
-at com.yourLogo.testCases.checkEmailRegistration.TC_emailCheck(checkEmailRegistration.java:45)
+at com.yourLogo.testCases.checkEmailRegistration.TC_emailCheck(checkEmailRegistration.java:52)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -52,11 +51,63 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_emailCheck -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourLogo.testCases.checkEmailRegistration@1a677343]" name="tearDown" is-config="true" duration-ms="108" started-at="2020-02-21T01:28:49Z" finished-at="2020-02-21T01:28:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourLogo.testCases.checkEmailRegistration@6ed3ccb2]" name="tearDown" is-config="true" duration-ms="134" started-at="2020-02-21T17:54:45Z" finished-at="2020-02-21T17:54:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.yourLogo.testCases.checkEmailRegistration -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="15954" started-at="2020-02-21T17:54:45Z" finished-at="2020-02-21T17:55:01Z">
+      <class name="com.yourLogo.testCases.checkNewUserCreation">
+        <test-method status="PASS" signature="TC_ApplicationLaunch()[pri:0, instance:com.yourLogo.testCases.checkNewUserCreation@7817fd62]" name="TC_ApplicationLaunch" is-config="true" duration-ms="11106" started-at="2020-02-21T17:54:45Z" finished-at="2020-02-21T17:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ApplicationLaunch -->
+        <test-method status="FAIL" signature="TC_newUserCreation()[pri:2, instance:com.yourLogo.testCases.checkNewUserCreation@7817fd62]" name="TC_newUserCreation" duration-ms="4727" started-at="2020-02-21T17:54:56Z" finished-at="2020-02-21T17:55:01Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User account creation page is not displayed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User account creation page is not displayed
+at org.testng.Assert.fail(Assert.java:96)
+at com.yourLogo.testCases.checkNewUserCreation.TC_newUserCreation(checkNewUserCreation.java:54)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_newUserCreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourLogo.testCases.checkNewUserCreation@7817fd62]" name="tearDown" is-config="true" duration-ms="120" started-at="2020-02-21T17:55:01Z" finished-at="2020-02-21T17:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.yourLogo.testCases.checkNewUserCreation -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>

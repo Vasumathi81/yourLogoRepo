@@ -3,13 +3,13 @@
 <suite name="Suite">
   <test name="Test1">
     <classes>
-      <class name="testCases.checkEmailRegistration"/>
+      <class name="com.yourLogo.testCases.checkEmailRegistration"/>
      </classes>
    </test>
    
    <test name="Test2">
    <classes>
-      <class name="testCases.checkNewUserCreation"/>
+      <class name="com.yourLogo.testCases.checkNewUserCreation"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

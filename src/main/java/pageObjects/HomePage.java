@@ -1,3 +1,4 @@
+
 package pageObjects;
 
 import org.openqa.selenium.WebDriver;
@@ -25,7 +26,7 @@ public class HomePage {
 		this.driver = driver;
 	}
 
-	public void siginEmailCheck(String emailID) throws InterruptedException
+	public String siginEmailCheck(String emailID) throws InterruptedException
 	{
 		PageObjectsRepository por = new PageObjectsRepository(driver);	
 		por.signinButton.click();
@@ -41,11 +42,14 @@ public class HomePage {
 		{
 			Assert.assertEquals(por.errorMsg.getText(), constant.expErr);
 			log.info("The error message is as expected");
+			String returnVal = "errorMsg";
+			return returnVal;
 		}
 		else
 		{
-			log.error("No error message displayed");
-			Assert.fail("User account creation page is loaded instead of the error message.");
+			log.info("No error message displayed");			
+			String returnVal = "userPage";
+			return returnVal;
 		}
 						
 	}

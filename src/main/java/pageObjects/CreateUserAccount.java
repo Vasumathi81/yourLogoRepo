@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,6 +19,7 @@ public class CreateUserAccount {
 	
 	public WebDriver driver;
 	GenericMethods gm = new GenericMethods();
+	static final Logger log = LogManager.getLogger(CreateUserAccount.class.getName());
 	
 	// constructor to set the active driver[passed as class arg] to this class's local driver variable
 	public CreateUserAccount(WebDriver driver)
@@ -34,21 +37,26 @@ public class CreateUserAccount {
 		if (titleValue.equalsIgnoreCase("Mr"))
 		{
 			por.mrRadioBtn.click();
+			log.info("Mr Radio button clicked");
 		}
 		else if (titleValue.equalsIgnoreCase("Mrs"))
 		{
 			por.mrsRadioBtn.click();
+			log.info("Mrs Radio button clicked");
 		}
 		else
 		{
 			System.out.println("The given title is not present in application.");
+			log.error("No radio button is selected");
 		}
 		
 		String firstNameValue = gm.getValuesFromExcel("user", "usercreation", "firstname");
 		por.firstName.sendKeys(firstNameValue);
+		log.info("Entered the firstname");
 		
 		String lastNameValue = gm.getValuesFromExcel("user", "usercreation", "lastname");
 		por.lastName.sendKeys(lastNameValue);
+		log.info("Entered the lastname");
 		
 		// check if the displayed email value is as given in the data sheet
 		String emailValue = gm.getValuesFromExcel("user", "usercreation", "email");		
@@ -56,11 +64,13 @@ public class CreateUserAccount {
 		
 		String pwdValue = gm.getValuesFromExcel("user", "usercreation", "password");
 		por.password.sendKeys(pwdValue);
+		log.info("Entered the password");
 		
 		// create an object of Select class to select values from dropdowns
 		String dateValue = gm.getValuesFromExcel("user", "usercreation", "date");
 		Select selectObj = new Select(por.dateDOB);
 		selectObj.selectByValue(dateValue);
+		log.info("Selected the date");
 		
 		String monthValue = gm.getValuesFromExcel("user", "usercreation", "month");
 		selectObj = new Select(por.monthDOB);
@@ -76,6 +86,7 @@ public class CreateUserAccount {
 			{
 				String optionIndex = eleMonthValue.getAttribute("index");
 				selectObj.selectByIndex(Integer.parseInt(optionIndex));
+				log.info("Selected the month");
 				break;
 			}
 		}				
@@ -83,6 +94,7 @@ public class CreateUserAccount {
 		String yearValue = gm.getValuesFromExcel("user", "usercreation", "year");
 		selectObj = new Select(por.yearDOB);
 		selectObj.selectByValue(yearValue);
+		log.info("Selected the year");
 		
 		String addrValue = gm.getValuesFromExcel("user", "usercreation", "address");
 		por.address.sendKeys(addrValue);

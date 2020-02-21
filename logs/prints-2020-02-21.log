@@ -1,0 +1,6 @@
+11:37:05.463 [main] INFO  pageObjects.HomePage - Signin button is clicked
+11:37:05.710 [main] INFO  pageObjects.HomePage - The email address cde123@gmail.com has been entered
+11:37:05.860 [main] INFO  pageObjects.HomePage - Create account button is clicked
+11:37:13.922 [main] ERROR pageObjects.HomePage - No error message displayed
+11:37:29.284 [main] INFO  com.yourLogo.testCases.checkNewUserCreation - Successfully retrieved req details from excel
+11:37:30.409 [main] INFO  pageObjects.HomePage - Signin button is clicked

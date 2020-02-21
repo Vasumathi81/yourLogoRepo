@@ -1,3 +1,14 @@
-19:28:41.025 [main] INFO  pageObjects.HomePage - The email address cde123@gmail.com has been entered
-19:28:41.261 [main] INFO  pageObjects.HomePage - Create account button is clicked
-19:28:49.300 [main] ERROR pageObjects.HomePage - No error message displayed
+11:37:30.603 [main] INFO  pageObjects.HomePage - The email address fgh@gmail.com has been entered
+11:37:30.755 [main] INFO  pageObjects.HomePage - Create account button is clicked
+11:37:33.924 [main] INFO  pageObjects.HomePage - The error message is as expected
+11:54:35.916 [main] INFO  com.yourLogo.testCases.checkEmailRegistration - Email id is retrieved from the excel
+11:54:37.009 [main] INFO  pageObjects.HomePage - Signin button is clicked
+11:54:37.237 [main] INFO  pageObjects.HomePage - The email address cde123@gmail.com has been entered
+11:54:37.471 [main] INFO  pageObjects.HomePage - Create account button is clicked
+11:54:45.585 [main] INFO  pageObjects.HomePage - No error message displayed
+11:54:56.956 [main] INFO  com.yourLogo.testCases.checkNewUserCreation - Successfully retrieved req details from excel
+11:54:58.061 [main] INFO  pageObjects.HomePage - Signin button is clicked
+11:54:58.270 [main] INFO  pageObjects.HomePage - The email address fgh@gmail.com has been entered
+11:54:58.417 [main] INFO  pageObjects.HomePage - Create account button is clicked
+11:55:01.581 [main] INFO  pageObjects.HomePage - The error message is as expected
+11:55:01.581 [main] ERROR com.yourLogo.testCases.checkNewUserCreation - Error message is displayed instead of the account creation page
