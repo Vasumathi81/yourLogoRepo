@@ -1,0 +1,6 @@
+22:32:01.986 [main] INFO  com.yourLogo.testCases.checkEmailRegistration - Email id is retrieved from the excel
+22:32:02.922 [main] INFO  pageObjects.HomePage - Sigin button is clicked
+22:32:03.015 [main] INFO  pageObjects.HomePage - The email address cde@gmail.com has been entered
+22:32:03.084 [main] INFO  pageObjects.HomePage - Create account button is clicked
+22:34:10.212 [main] INFO  com.yourLogo.testCases.checkEmailRegistration - Email id is retrieved from the excel
+22:34:11.164 [main] INFO  pageObjects.HomePage - Sigin button is clicked

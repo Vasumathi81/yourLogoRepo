@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="testCases.checkNewUserCreation">
+        <methods>
+          <include name="closeApp"/>
+          <include name="TC_newUserCreation"/>
+          <include name="TC_ApplicationLaunch"/>
+        </methods>
+      </class> <!-- testCases.checkNewUserCreation -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
