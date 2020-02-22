@@ -36,6 +36,10 @@ public class checkNewUserCreation extends BaseTest{
 	@Test(priority = 2)
 	public void TC_newUserCreation() throws IOException, InterruptedException
 	{
+		log.info("-------------------------------------------------------------------------------------");
+		log.info("                        New User Creation");
+		log.info("-------------------------------------------------------------------------------------");
+		
 		GenericMethods gm = new GenericMethods();
 		// retrieve the email id from excel and store it in the variable
 		 String retEmail = gm.getValuesFromExcel("User", "UserCreation", "Email");

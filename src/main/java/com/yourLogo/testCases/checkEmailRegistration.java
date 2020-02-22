@@ -37,9 +37,12 @@ public class checkEmailRegistration extends BaseTest{
 	@Test(priority = 1)
 	public void TC_emailCheck() throws IOException, InterruptedException
 	{
+		log.info("-------------------------------------------------------------------------------------");
+		log.info("                        check email registration");
+		log.info("-------------------------------------------------------------------------------------");
 		HomePage hp = new HomePage(driver);
 		GenericMethods gm = new GenericMethods();
-		ArrayList<String> emailIDList = gm.getValuesFromExcel("Login", "Email ID");
+		ArrayList<String> emailIDList = gm.getValuesFromExcel("Login", "Username");
 		log.info("Email id is retrieved from the excel");
 		String emailID = emailIDList.get(0);
 		String retValue = hp.siginEmailCheck(emailID);
