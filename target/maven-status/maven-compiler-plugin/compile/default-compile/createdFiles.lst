@@ -1,11 +1,6 @@
 pageObjects\PageObjectsRepository.class
-testCases\checkNewUserCreation.class
 pageObjects\CreateUserAccount.class
-resources\BaseTest.class
 pageObjects\HomePage.class
-resources\GenericMethods.class
-resources\Constants.class
 com\automationPractice\yourLogo\MainClass.class
 com\automationPractice\yourLogo\DraftClass.class
-testCases\checkEmailRegistration.class
 com\automationPractice\yourLogo\App.class
