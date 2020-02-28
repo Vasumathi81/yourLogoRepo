@@ -36,6 +36,15 @@ public class PageObjectsRepository {
 		@FindBy(xpath = "//*[@id='create_account_error']/ol/li")
 		public WebElement errorMsg;
 		
+		@FindBy(id = "email")
+		public WebElement txtEmail;
+		
+		@FindBy(id = "passwd")
+		public WebElement txtPwd;
+		
+		@FindBy(id = "SubmitLogin")
+		public WebElement btnSignin;
+		
 		// **************************** CREATE AN ACCOUNT SCREEN ********************************************
 		@FindBy(id = "uniform-id_gender1")
 		public WebElement mrRadioBtn;
@@ -94,10 +103,56 @@ public class PageObjectsRepository {
 		@FindBy(id = "submitAccount")
 		public WebElement btnRegister;
 		
-		// *************************************  Home Page *****************************************************
+		// *************************************  User Account Home Screen ****************************************
 		@FindBy(xpath = "//p[@class='info-account']")
 		public WebElement msgLoginPage;		
 		
 		@FindBy(xpath = "//a[@class='logout']")
 		public WebElement logout;
+		
+		@FindBy(id = "search_query_top")
+		public WebElement txtSearch;
+		
+		@FindBy(name = "submit_search")
+		public WebElement btnSearch;
+		
+		@FindBy(linkText = "http://automationpractice.com/index.php?id_category=3&controller=category")
+		public WebElement linkWomen;
+		
+		@FindBy(linkText = "http://automationpractice.com/index.php?id_category=8&controller=category")
+		public WebElement linkDresses;
+		
+		@FindBy(linkText = "http://automationpractice.com/index.php?id_category=5&controller=category")
+		public WebElement linkTshirts;
+		
+		@FindBy(xpath = "//ul[@class='product_list grid row']")
+		public WebElement listGrid;
+		
+//		@FindBy(xpath = "//ul[@class='product_list grid row'] //li[contains(@class,'ajax_block_product')]")
+//		public WebElement product;
+//		
+//		@FindBy(xpath = "//ul[@class='product_list grid row'] //a[@title='Add to cart']")
+//		public WebElement btnAddToCart;
+		
+		@FindBy(xpath = "//*[@id='layer_cart'] //*[@title='Close window']")
+		public WebElement btnClose;
+		
+		@FindBy(xpath = "//div[@id='block_top_menu']/ul/li[1]")
+		public WebElement tabWomen;
+		
+		@FindBy(xpath = "//div[@id='block_top_menu']/ul/li[2]")
+		public WebElement tabDresses;
+		
+		@FindBy(xpath = "//div[@id='block_top_menu']/ul/li[3]")
+		public WebElement mainTabTshirts;
+		
+		@FindBy(xpath = "//div[@id='block_top_menu']/ul/li[1] //*[@title='T-shirts']")
+		public WebElement subTabTshirts;
+		
+		@FindBy(xpath = "//div[@id='block_top_menu']/ul/li[1] //*[@title='Blouses']")
+		public WebElement subTabBlouses;
+		
+		
+		
+		
 }

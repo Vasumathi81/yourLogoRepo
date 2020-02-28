@@ -16,9 +16,9 @@ import utilities.BaseTest;
 import utilities.Constants;
 import utilities.GenericMethods;
 
-public class checkEmailRegistration extends BaseTest{
+public class EmailRegistrationTest extends BaseTest{
 	
-	static final Logger log = LogManager.getLogger(checkEmailRegistration.class.getName());
+	static final Logger log = LogManager.getLogger(EmailRegistrationTest.class.getName());
 	
 	@BeforeTest
 	public void TC_ApplicationLaunch() throws IOException

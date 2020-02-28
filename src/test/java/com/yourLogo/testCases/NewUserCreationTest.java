@@ -15,9 +15,9 @@ import pageObjects.HomePage;
 import utilities.BaseTest;
 import utilities.GenericMethods;
 
-public class checkNewUserCreation extends BaseTest{
+public class NewUserCreationTest extends BaseTest{
 	
-	static final Logger log = LogManager.getLogger(checkNewUserCreation.class.getName());
+	static final Logger log = LogManager.getLogger(NewUserCreationTest.class.getName());
 
 	@BeforeTest
 	public void TC_ApplicationLaunch() throws IOException

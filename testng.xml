@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test1">
-    <classes>
-      <class name="com.yourLogo.testCases.checkEmailRegistration"/>
-     </classes>
-   </test>
-   
-   <test name="Test2">
-   <classes>
-      <class name="com.yourLogo.testCases.checkNewUserCreation"/>
-    </classes>
-  </test> <!-- Test -->
+	<listeners>
+		<listener class-name="utilities.Listeners"/>
+	</listeners>
+	
+	<test name="Test1">
+		<classes>
+			<class name="com.yourLogo.testCases.ExistingUserLoginTest" />
+			<class name="com.yourLogo.testCases.FillShoppingCartTest" />
+		</classes>
+	</test>
+
+<!-- 	<test name="Test2"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.yourLogo.testCases.EmailRegistrationTest" /> -->
+<!-- 			<class name="com.yourLogo.testCases.NewUserCreationTest" /> -->
+<!-- 		</classes> -->
+<!-- 	</test>  -->
+
+	<!-- Test -->
 </suite> <!-- Suite -->

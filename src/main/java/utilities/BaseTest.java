@@ -1,12 +1,19 @@
 package utilities;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.logging.log4j.core.util.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.BeforeMethod;
+
+import com.google.common.io.Files;
 
 
 public class BaseTest {
@@ -42,6 +49,7 @@ public class BaseTest {
 		}
 		
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().deleteAllCookies();
 		return driver;
 		
 	}
@@ -52,6 +60,14 @@ public class BaseTest {
 		driver.get(gm.getValueFromPropertiesFile("appURL"));	
 		driver.manage().window().maximize();				
 	
+	}
+	
+	// Method to take screenshot of the browser and store it in a file
+	public void takeScreenShot(String result) throws IOException
+	{
+		File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		Files.copy(srcFile, new File(System.getProperty("user.dir")+"/Screenshots/" + result + "Screenshot.png"));
+		//FileUtils.copyFile(srcFile, new File(System.getProperty("user.dir") + result + "screenshot.png"));
 	}
 	
 

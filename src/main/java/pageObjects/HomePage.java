@@ -4,7 +4,7 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import com.yourLogo.testCases.checkEmailRegistration;
+import com.yourLogo.testCases.EmailRegistrationTest;
 
 import utilities.BaseTest;
 import utilities.Constants;
@@ -18,7 +18,9 @@ public class HomePage {
 	public WebDriver driver;
 	Constants constant = new Constants();
 	GenericMethods gm = new GenericMethods();
+	//PageObjectsRepository por = new PageObjectsRepository(driver); - null exception error if declared here
 	static final Logger log = LogManager.getLogger(HomePage.class.getName());
+	
 
 	// constructor to set the active driver[passed as class arg] to this class's local driver variable
 	public HomePage(WebDriver driver)
@@ -52,6 +54,37 @@ public class HomePage {
 			return returnVal;
 		}
 						
+	}
+	
+	public void existingUserLogin(String email, String password)
+	{
+		PageObjectsRepository por = new PageObjectsRepository(driver);
+		por.signinButton.click();
+		log.info("Signin button is clicked");
+		
+		por.txtEmail.sendKeys(email);
+		log.info("Email address entered");
+		por.txtPwd.sendKeys(password);
+		log.info("Password entered");
+		por.btnSignin.click();
+		log.info("Signin button is clicked");
+		
+		if (gm.isElementPresent(por.logout))
+		{
+			log.info("Able to login with existing user details");
+		}
+		else
+		{
+			Assert.fail("Unable to login with existing user details");
+		}
+		
+	}
+	
+	public void userLogout()
+	{
+		PageObjectsRepository por = new PageObjectsRepository(driver);
+		por.logout.click();
+		log.info("Logout button clicked");
 	}
 
 }

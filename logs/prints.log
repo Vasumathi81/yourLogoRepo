@@ -1,25 +1,102 @@
-11:37:30.603 [main] INFO  pageObjects.HomePage - The email address fgh@gmail.com has been entered
-11:37:30.755 [main] INFO  pageObjects.HomePage - Create account button is clicked
-11:37:33.924 [main] INFO  pageObjects.HomePage - The error message is as expected
-11:54:35.916 [main] INFO  com.yourLogo.testCases.checkEmailRegistration - Email id is retrieved from the excel
-11:54:37.009 [main] INFO  pageObjects.HomePage - Signin button is clicked
-11:54:37.237 [main] INFO  pageObjects.HomePage - The email address cde123@gmail.com has been entered
-11:54:37.471 [main] INFO  pageObjects.HomePage - Create account button is clicked
-11:54:45.585 [main] INFO  pageObjects.HomePage - No error message displayed
-11:54:56.956 [main] INFO  com.yourLogo.testCases.checkNewUserCreation - Successfully retrieved req details from excel
-11:54:58.061 [main] INFO  pageObjects.HomePage - Signin button is clicked
-11:54:58.270 [main] INFO  pageObjects.HomePage - The email address fgh@gmail.com has been entered
-11:54:58.417 [main] INFO  pageObjects.HomePage - Create account button is clicked
-11:55:01.581 [main] INFO  pageObjects.HomePage - The error message is as expected
-11:55:01.581 [main] ERROR com.yourLogo.testCases.checkNewUserCreation - Error message is displayed instead of the account creation page
-13:22:45.634 [main] INFO  com.yourLogo.testCases.checkEmailRegistration - Email id is retrieved from the excel
-13:22:46.775 [main] INFO  pageObjects.HomePage - Signin button is clicked
-13:22:47.021 [main] INFO  pageObjects.HomePage - The email address cde123@gmail.com has been entered
-13:22:47.196 [main] INFO  pageObjects.HomePage - Create account button is clicked
-13:22:55.264 [main] INFO  pageObjects.HomePage - No error message displayed
-13:23:07.003 [main] INFO  com.yourLogo.testCases.checkNewUserCreation - Successfully retrieved req details from excel
-13:23:08.691 [main] INFO  pageObjects.HomePage - Signin button is clicked
-13:23:08.909 [main] INFO  pageObjects.HomePage - The email address fgh@gmail.com has been entered
-13:23:09.061 [main] INFO  pageObjects.HomePage - Create account button is clicked
-13:23:12.214 [main] INFO  pageObjects.HomePage - The error message is as expected
-13:23:12.214 [main] ERROR com.yourLogo.testCases.checkNewUserCreation - Error message is displayed instead of the account creation page
+\13:35:11.723 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:35:11.726 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+13:35:11.726 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:35:13.196 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:35:13.297 [main] INFO  pageObjects.HomePage - Email address entered
+13:35:13.378 [main] INFO  pageObjects.HomePage - Password entered
+13:35:13.909 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:37:42.958 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:37:42.961 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+13:37:42.961 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:37:44.625 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:37:44.723 [main] INFO  pageObjects.HomePage - Email address entered
+13:37:44.799 [main] INFO  pageObjects.HomePage - Password entered
+13:37:45.400 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:39:42.811 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:39:42.813 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+13:39:42.813 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:39:44.493 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:39:44.583 [main] INFO  pageObjects.HomePage - Email address entered
+13:39:44.669 [main] INFO  pageObjects.HomePage - Password entered
+13:39:45.197 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:41:47.788 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:41:47.790 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+13:41:47.790 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:41:49.113 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:41:49.209 [main] INFO  pageObjects.HomePage - Email address entered
+13:41:49.290 [main] INFO  pageObjects.HomePage - Password entered
+13:41:49.816 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:43:01.269 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:43:01.272 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+13:43:01.272 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:43:03.654 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:43:03.749 [main] INFO  pageObjects.HomePage - Email address entered
+13:43:03.832 [main] INFO  pageObjects.HomePage - Password entered
+13:43:05.146 [main] INFO  pageObjects.HomePage - Signin button is clicked
+21:15:21.410 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+21:15:21.414 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+21:15:21.414 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+21:15:22.951 [main] INFO  pageObjects.HomePage - Signin button is clicked
+21:15:23.047 [main] INFO  pageObjects.HomePage - Email address entered
+21:15:23.127 [main] INFO  pageObjects.HomePage - Password entered
+21:15:23.909 [main] INFO  pageObjects.HomePage - Signin button is clicked
+09:11:54.042 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+09:11:54.050 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+09:11:54.050 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+09:11:56.727 [main] INFO  pageObjects.HomePage - Signin button is clicked
+09:11:56.861 [main] INFO  pageObjects.HomePage - Email address entered
+09:11:56.992 [main] INFO  pageObjects.HomePage - Password entered
+09:11:58.333 [main] INFO  pageObjects.HomePage - Signin button is clicked
+09:11:58.450 [main] INFO  pageObjects.HomePage - Able to login with existing user details
+09:48:47.749 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+09:48:47.758 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+09:48:47.758 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+09:48:50.221 [main] INFO  pageObjects.HomePage - Signin button is clicked
+09:48:50.424 [main] INFO  pageObjects.HomePage - Email address entered
+09:48:50.606 [main] INFO  pageObjects.HomePage - Password entered
+09:48:51.728 [main] INFO  pageObjects.HomePage - Signin button is clicked
+09:48:51.831 [main] INFO  pageObjects.HomePage - Able to login with existing user details
+09:55:16.397 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+09:55:16.401 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+09:55:16.401 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+09:55:21.698 [main] INFO  pageObjects.HomePage - Signin button is clicked
+09:55:21.893 [main] INFO  pageObjects.HomePage - Email address entered
+09:55:22.066 [main] INFO  pageObjects.HomePage - Password entered
+09:55:29.303 [main] INFO  pageObjects.HomePage - Signin button is clicked
+09:55:29.404 [main] INFO  pageObjects.HomePage - Able to login with existing user details
+13:33:31.291 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:33:31.294 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+13:33:31.294 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:33:32.720 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:33:32.824 [main] INFO  pageObjects.HomePage - Email address entered
+13:33:32.919 [main] INFO  pageObjects.HomePage - Password entered
+13:33:33.918 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:33:33.986 [main] INFO  pageObjects.HomePage - Able to login with existing user details
+13:46:26.096 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:46:26.110 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+13:46:26.111 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:46:28.101 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:46:28.287 [main] INFO  pageObjects.HomePage - Email address entered
+13:46:28.468 [main] INFO  pageObjects.HomePage - Password entered
+13:46:29.504 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:46:29.612 [main] INFO  pageObjects.HomePage - Able to login with existing user details
+13:50:46.935 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:50:46.935 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+13:50:46.935 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+13:50:49.366 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:50:49.461 [main] INFO  pageObjects.HomePage - Email address entered
+13:50:49.533 [main] INFO  pageObjects.HomePage - Password entered
+13:50:51.022 [main] INFO  pageObjects.HomePage - Signin button is clicked
+13:50:51.079 [main] INFO  pageObjects.HomePage - Able to login with existing user details
+19:08:50.572 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+19:08:50.588 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+19:08:50.588 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+19:08:52.071 [main] INFO  pageObjects.HomePage - Signin button is clicked
+19:08:52.170 [main] INFO  pageObjects.HomePage - Email address entered
+19:08:52.263 [main] INFO  pageObjects.HomePage - Password entered
+19:08:53.262 [main] INFO  pageObjects.HomePage - Signin button is clicked
+19:08:53.323 [main] INFO  pageObjects.HomePage - Able to login with existing user details
+19:08:54.808 [main] INFO  pageObjects.UserHomeScreen - Number of listed products - 3
+19:08:54.957 [main] INFO  pageObjects.UserHomeScreen - Moved the mouse over the first product to select
+19:08:55.109 [main] INFO  pageObjects.UserHomeScreen - Clicked on the AddToCart button
+19:08:56.548 [main] INFO  pageObjects.UserHomeScreen - Closed the pop up window
