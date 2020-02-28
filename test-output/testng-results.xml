@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17540" started-at="2020-02-27T01:08:39Z" finished-at="2020-02-27T01:08:56Z">
+  <suite name="Suite" duration-ms="17126" started-at="2020-02-28T02:20:26Z" finished-at="2020-02-28T02:20:43Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="17540" started-at="2020-02-27T01:08:39Z" finished-at="2020-02-27T01:08:56Z">
+    <test name="Test1" duration-ms="17126" started-at="2020-02-28T02:20:26Z" finished-at="2020-02-28T02:20:43Z">
       <class name="com.yourLogo.testCases.ExistingUserLoginTest">
-        <test-method status="PASS" signature="TC_ApplicationLaunch()[pri:0, instance:com.yourLogo.testCases.ExistingUserLoginTest@198b6731]" name="TC_ApplicationLaunch" is-config="true" duration-ms="11547" started-at="2020-02-27T01:08:39Z" finished-at="2020-02-27T01:08:50Z">
+        <test-method status="PASS" signature="TC_ApplicationLaunch()[pri:0, instance:com.yourLogo.testCases.ExistingUserLoginTest@198b6731]" name="TC_ApplicationLaunch" is-config="true" duration-ms="11510" started-at="2020-02-28T02:20:26Z" finished-at="2020-02-28T02:20:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_ApplicationLaunch -->
-        <test-method status="PASS" signature="TC_ExistingUserLogin()[pri:0, instance:com.yourLogo.testCases.ExistingUserLoginTest@198b6731]" name="TC_ExistingUserLogin" duration-ms="2751" started-at="2020-02-27T01:08:50Z" finished-at="2020-02-27T01:08:53Z">
+        <test-method status="PASS" signature="TC_ExistingUserLogin()[pri:0, instance:com.yourLogo.testCases.ExistingUserLoginTest@198b6731]" name="TC_ExistingUserLogin" duration-ms="3110" started-at="2020-02-28T02:20:38Z" finished-at="2020-02-28T02:20:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_ExistingUserLogin -->
       </class> <!-- com.yourLogo.testCases.ExistingUserLoginTest -->
       <class name="com.yourLogo.testCases.FillShoppingCartTest">
-        <test-method status="PASS" signature="TC_AddItemsInCart()[pri:0, instance:com.yourLogo.testCases.FillShoppingCartTest@7c6908d7]" name="TC_AddItemsInCart" duration-ms="3224" started-at="2020-02-27T01:08:53Z" finished-at="2020-02-27T01:08:56Z">
+        <test-method status="PASS" signature="TC_AddItemsInCart()[pri:0, instance:com.yourLogo.testCases.FillShoppingCartTest@7c6908d7]" name="TC_AddItemsInCart" duration-ms="2486" started-at="2020-02-28T02:20:41Z" finished-at="2020-02-28T02:20:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_AddItemsInCart -->

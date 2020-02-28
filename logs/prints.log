@@ -100,3 +100,17 @@
 19:08:54.957 [main] INFO  pageObjects.UserHomeScreen - Moved the mouse over the first product to select
 19:08:55.109 [main] INFO  pageObjects.UserHomeScreen - Clicked on the AddToCart button
 19:08:56.548 [main] INFO  pageObjects.UserHomeScreen - Closed the pop up window
+20:20:38.013 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+20:20:38.017 [main] INFO  com.yourLogo.testCases.NewUserCreationTest -                         Existing User Login
+20:20:38.017 [main] INFO  com.yourLogo.testCases.NewUserCreationTest - -------------------------------------------------------------------------------------
+20:20:39.745 [main] INFO  pageObjects.HomePage - Signin button is clicked
+20:20:39.836 [main] INFO  pageObjects.HomePage - Email address entered
+20:20:39.923 [main] INFO  pageObjects.HomePage - Password entered
+20:20:41.056 [main] INFO  pageObjects.HomePage - Signin button is clicked
+20:20:41.112 [main] INFO  pageObjects.HomePage - Able to login with existing user details
+20:20:41.219 [main] INFO  pageObjects.UserHomeScreen - Entered the value printed summer dress in the search textbox
+20:20:42.197 [main] INFO  pageObjects.UserHomeScreen - Clicked on the search button
+20:20:42.220 [main] INFO  pageObjects.UserHomeScreen - Number of listed products - 3
+20:20:42.387 [main] INFO  pageObjects.UserHomeScreen - Moved the mouse over the first product to select
+20:20:42.535 [main] INFO  pageObjects.UserHomeScreen - Clicked on the AddToCart button
+20:20:43.600 [main] INFO  pageObjects.UserHomeScreen - Closed the pop up window
